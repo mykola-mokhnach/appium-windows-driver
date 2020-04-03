@@ -1,6 +1,6 @@
 # https://github.com/actions/virtual-environments
 variables:
-  DEFAULT_NODE_VERSION: "12.x"
+  DEFAULT_NODE_VERSION: "10.x"
 
 pool:
   vmImage: "windows-latest"
@@ -13,10 +13,13 @@ stages:
     - template: azure-templates/node_setup_steps.yml
     - script: npm run lint
 
-#   - job: Unit_Tests
-#     steps:
-#     - template: azure-templates/node_setup_steps.yml
-#     - script: npm run test
+  - job: Unit_Tests
+    steps:
+    - template: azure-templates/node_setup_steps.yml
+    - script: npm run test
+
+# Integration tests cannot run in the hosted pool, because they require Administrator access:
+# > You are not running as an administrator so WinAppDriver cannot be installed for you; please reinstall as admin
 
 # - stage: Integration_Tests
 #   jobs:
