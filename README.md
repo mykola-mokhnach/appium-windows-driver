@@ -60,7 +60,7 @@ Another example, which demonstrates how to use the command output:
 ```python
 # python
 cmd = 'Get-Process outlook -ErrorAction SilentlyContinue'
-proc_info = driver.execute_script('powerShell', {'command', cmd})
+proc_info = driver.execute_script('powerShell', {'command': cmd})
 if proc_info:
   print('Outlook is running')
 else:
