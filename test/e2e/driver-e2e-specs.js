@@ -3,6 +3,7 @@ import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import { startServer } from '../../lib/server';
 import { isAdmin } from '../../lib/installer';
+
 chai.should();
 chai.use(chaiAsPromised);
 
@@ -18,9 +19,7 @@ describe('Driver', async function () {
   let driver;
 
   before(async function () {
-    if (await isAdmin()) {
-      server = await startServer(TEST_PORT, TEST_HOST);
-    }
+    server = await startServer(TEST_PORT, TEST_HOST);
   });
 
   after(async function () {
@@ -48,6 +47,6 @@ describe('Driver', async function () {
       app: 'Microsoft.WindowsCalculator_8wekyb3d8bbwe!App',
       platformName: 'Windows',
     });
-    await driver.elementByName('Calculator');
+    await driver.source().should.eventually.be.not.empty;
   });
 });
