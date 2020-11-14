@@ -1,17 +1,16 @@
 Appium Windows Driver
 ===================
 
-Appium Windows Driver is a test automation tool for Windows devices. Appium Windows Driver automates UWP and classic apps on Windows 10. The driver is maintained by Microsoft at https://github.com/microsoft/WinAppDriver. Check its [release notes](https://github.com/microsoft/WinAppDriver/releases) and the [vendor documentation](https://github.com/microsoft/WinAppDriver/tree/master/Docs) to get more details on the supported features and possible pitfalls.
+Appium Windows Driver is a test automation tool for Windows devices and acts as a proxy to Microsoft's [WinAppDriver server](https://github.com/microsoft/WinAppDriver). Appium Windows Driver supports testing Universal Windows Platform (UWP), Windows Forms (WinForms), Windows Presentation Foundation (WPF), and Classic Windows (Win32) apps on Windows 10 PCs. The server itself is maintained by Microsoft at https://github.com/microsoft/WinAppDriver. Check its [release notes](https://github.com/microsoft/WinAppDriver/releases) and the [vendor documentation](https://github.com/microsoft/WinAppDriver/tree/master/Docs) to get more details on the supported features and possible pitfalls.
 
 
 ## Usage
 
 Beside of standard Appium requirements Appium Windows Driver adds the following prerequisites:
 
-- Currently Appium Windows Driver only supports Windows 10 as the host.
-- Appium process must be run under Administrator account
+- Appium Windows Driver only supports Windows 10 as the host.
 - [Developer mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) must be enabled
-- Appium can download and install Appium Windows Driver package automatically, although, it could be out of date. In such case you could download and install the most recent version of Appium Windows Driver manually from the [GitHub releases](https://github.com/microsoft/WinAppDriver/releases) page.
+- Appium downloads and installs WinAppDriver package automatically upon executing its installation scripts, although, the actual binary version could be out of date. In such case you could download and install the most recent version of WinAppDriver manually from the [GitHub releases](https://github.com/microsoft/WinAppDriver/releases) page.
 
 Appium Windows Driver supports the following capabilities:
 
