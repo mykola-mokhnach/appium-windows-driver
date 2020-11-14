@@ -118,9 +118,9 @@ Another example, which demonstrates how to use the command output:
 cmd = 'Get-Process outlook -ErrorAction SilentlyContinue'
 proc_info = driver.execute_script('powerShell', {'command': cmd})
 if proc_info:
-  print('Outlook is running')
+    print('Outlook is running')
 else:
-  print('Outlook is not running')
+    print('Outlook is not running')
 ```
 
 
