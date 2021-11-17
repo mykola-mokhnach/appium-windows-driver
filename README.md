@@ -190,6 +190,18 @@ Name | Type | Required | Description | Example
 --- | --- | --- | --- | ---
 remotePath | string | yes | The path to a folder. The path may contain environment variables that could be expanded on the server side. Due to security reasons only variables listed below would be expanded: `APPDATA`, `LOCALAPPDATA`, `PROGRAMFILES`, `PROGRAMFILES(X86)`, `PROGRAMDATA`, `ALLUSERSPROFILE`, `TEMP`, `TMP`, `HOMEPATH`, `USERPROFILE`, `PUBLIC` | `%HOMEPATH%\\SomeFolder\\` or `C:\\Users\\user\\SomeFolder\\`
 
+## Environment Variables
+
+Appium Windows Driver supports the following environment variables:
+Environment Variable | Description
+--- | ---
+APPIUM_WAD_PATH | WinAppDriver.exe path
+
+If you want to set your custom path like WAD then you can set env in CMD or PowerShell as follow:  
+```
+setx APPIUM_WAD_PATH "C:\Windows\Program Files\Windows Application Driver\WinAppDriver.exe"
+```
+
 ## Development
 
 ```bash
