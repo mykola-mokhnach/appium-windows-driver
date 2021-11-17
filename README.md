@@ -193,14 +193,10 @@ remotePath | string | yes | The path to a folder. The path may contain environme
 ## Environment Variables
 
 Appium Windows Driver supports the following environment variables:
-Environment Variable | Description
---- | ---
-APPIUM_WAD_PATH | WinAppDriver.exe path
 
-If you want to set your custom path like WAD then you can set env in CMD or PowerShell as follow:  
-```
-setx APPIUM_WAD_PATH "C:\Windows\Program Files\Windows Application Driver\WinAppDriver.exe"
-```
+Variable Name | Description
+--- | ---
+APPIUM_WAD_PATH | A full path to `WinAppDriver.exe`. If you need to provide a custom path to WinAppDriver executable then set the corresponding env variable value via CMD or PowerShell: `setx APPIUM_WAD_PATH "D:\New Folder\Windows Application Driver\WinAppDriver.exe"`. The default location of the executable is assumed to be `%PROGRAMFILES%\Windows Application Driver\WinAppDriver.exe`.
 
 ## Development
 
