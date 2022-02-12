@@ -75,7 +75,7 @@
     "appium-gulp-plugins": "^5.1.0",
     "appium-test-support": "^1.1.0",
     "@semantic-release/git": "^10.0.1",
-     "chai": "^4.1.2",
+    "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "eslint-config-appium": "^4.0.1",
     "gulp": "^4.0.0",
