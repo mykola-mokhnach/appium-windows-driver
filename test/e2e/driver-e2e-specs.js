@@ -1,4 +1,4 @@
-import wd from 'wd';
+import { remote as wdio } from 'webdriverio';
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import { startServer } from '../../lib/server';
@@ -9,6 +9,17 @@ chai.use(chaiAsPromised);
 
 const TEST_PORT = 4788;
 const TEST_HOST = 'localhost';
+
+const TEST_CAPS = {
+  platformName: 'Windows',
+  'appium:app': 'Microsoft.WindowsCalculator_8wekyb3d8bbwe!App'
+};
+
+const WDIO_OPTS = {
+  hostname: TEST_HOST,
+  connectionRetryCount: 0,
+  capabilities: TEST_CAPS
+};
 
 describe('Driver', async function () {
   if (!await isAdmin()) {
@@ -29,9 +40,9 @@ describe('Driver', async function () {
     server = null;
   });
 
-  beforeEach(function () {
+  beforeEach(async function () {
     if (server) {
-      driver = wd.promiseChainRemote(TEST_HOST, TEST_PORT);
+      driver = await wdio({...WDIO_OPTS, port: this.port});
     }
   });
 
@@ -43,10 +54,6 @@ describe('Driver', async function () {
   });
 
   it('should run a basic session using a real client', async function () {
-    await driver.init({
-      app: 'Microsoft.WindowsCalculator_8wekyb3d8bbwe!App',
-      platformName: 'Windows',
-    });
     await driver.source().should.eventually.be.not.empty;
   });
 });
