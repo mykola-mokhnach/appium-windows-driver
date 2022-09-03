@@ -3,14 +3,13 @@ import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import path from 'path';
 import { tempDir, fs } from 'appium/support';
-import { startServer } from '../../server';
 import { isAdmin } from '../../../lib/installer';
+import { TEST_HOST, TEST_PORT } from '../constants';
+
 
 chai.should();
 chai.use(chaiAsPromised);
 
-const TEST_PORT = 4788;
-const TEST_HOST = 'localhost';
 
 const TEST_CAPS = {
   platformName: 'Windows',
@@ -20,47 +19,37 @@ const TEST_CAPS = {
 
 const WDIO_OPTS = {
   hostname: TEST_HOST,
+  port: TEST_PORT,
   connectionRetryCount: 0,
   capabilities: TEST_CAPS
 };
 
-describe('file movement', async function () {
-  if (!await isAdmin()) {
-    return;
-  }
-
-  let server;
+describe('file movement', function () {
   let driver;
   let remotePath;
 
-  before(async function () {
-    server = await startServer(TEST_PORT, TEST_HOST, true);
-  });
-
-  after(async function () {
-    if (server) {
-      await server.close();
-    }
-    server = null;
-  });
-
   beforeEach(async function () {
-    if (server) {
-      driver = await wdio(WDIO_OPTS);
+    if (process.env.CI || !await isAdmin()) {
+      return this.skip();
     }
+
+    driver = await wdio(WDIO_OPTS);
   });
 
   afterEach(async function () {
-    if (driver) {
-      await driver.quit();
-    }
-    if (remotePath) {
-      if (await fs.exists(remotePath)) {
-        await fs.rimraf(path.dirname(remotePath));
+    try {
+      if (driver) {
+        await driver.deleteSession();
       }
+      if (remotePath) {
+        if (await fs.exists(remotePath)) {
+          await fs.rimraf(path.dirname(remotePath));
+        }
+      }
+    } finally {
+      remotePath = null;
+      driver = null;
     }
-    remotePath = null;
-    driver = null;
   });
 
   it('should push and pull a file', async function () {

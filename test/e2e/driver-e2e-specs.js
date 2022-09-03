@@ -1,14 +1,12 @@
 import { remote as wdio } from 'webdriverio';
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
-import { startServer } from '../server';
 import { isAdmin } from '../../lib/installer';
+import { TEST_HOST, TEST_PORT } from './constants';
 
 chai.should();
 chai.use(chaiAsPromised);
 
-const TEST_PORT = 4788;
-const TEST_HOST = 'localhost';
 
 const TEST_CAPS = {
   platformName: 'Windows',
@@ -23,36 +21,25 @@ const WDIO_OPTS = {
   capabilities: TEST_CAPS
 };
 
-describe('Driver', async function () {
-  if (!await isAdmin()) {
-    return;
-  }
-
-  let server;
+describe('Driver', function () {
   let driver;
 
-  before(async function () {
-    server = await startServer(TEST_PORT, TEST_HOST);
-  });
-
-  after(async function () {
-    if (server) {
-      await server.close();
-    }
-    server = null;
-  });
-
   beforeEach(async function () {
-    if (server) {
-      driver = await wdio(WDIO_OPTS);
+    if (process.env.CI || !await isAdmin()) {
+      return this.skip();
     }
+
+    driver = await wdio(WDIO_OPTS);
   });
 
   afterEach(async function () {
-    if (driver) {
-      await driver.quit();
+    try {
+      if (driver) {
+        await driver.deleteSession();
+      }
+    } finally {
+      driver = null;
     }
-    driver = null;
   });
 
   it('should run a basic session using a real client', async function () {
