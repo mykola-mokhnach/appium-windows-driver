@@ -27,17 +27,17 @@ Appium Windows Driver supports the following capabilities:
 Capability Name | Description
 --- | ---
 platformName | Must be set to `windows` (case-insensitive).
-automationName | Must be set to `windows` (case-insensitive).
-app | The name of the UWP application to test or full path to a classic app, for example `Microsoft.WindowsCalculator_8wekyb3d8bbwe!App` or `C:\Windows\System32\notepad.exe`. It is also possible to set `app` to `Root`. In such case the session will be invoked without any explicit target application (actually, it will be Explorer). Either this capability or `appTopLevelWindow` must be provided on session startup.
-appArguments | Application arguments string, for example `/?`.
-appTopLevelWindow | The hexadecimal handle of an existing application top level window to attach to, for example `0x12345` (should be of string type). Either this capability or `app` must be provided on session startup.
-appWorkingDir | Full path to the folder, which is going to be set as the working dir for the application under test. This is only applicable for classic apps.
-createSessionTimeout | Timeout in milliseconds used to retry Appium Windows Driver session startup. This capability could be used as a workaround for the long startup times of UWP applications (aka `Failed to locate opened application window with appId: TestCompany.my_app4!App, and processId: 8480`). Default value is `20000`.
+appium:automationName | Must be set to `windows` (case-insensitive).
+appium:app | The name of the UWP application to test or full path to a classic app, for example `Microsoft.WindowsCalculator_8wekyb3d8bbwe!App` or `C:\Windows\System32\notepad.exe`. It is also possible to set `app` to `Root`. In such case the session will be invoked without any explicit target application (actually, it will be Explorer). Either this capability or `appTopLevelWindow` must be provided on session startup.
+appium:appArguments | Application arguments string, for example `/?`.
+appium:appTopLevelWindow | The hexadecimal handle of an existing application top level window to attach to, for example `0x12345` (should be of string type). Either this capability or `app` must be provided on session startup.
+appium:appWorkingDir | Full path to the folder, which is going to be set as the working dir for the application under test. This is only applicable for classic apps.
+appium:createSessionTimeout | Timeout in milliseconds used to retry Appium Windows Driver session startup. This capability could be used as a workaround for the long startup times of UWP applications (aka `Failed to locate opened application window with appId: TestCompany.my_app4!App, and processId: 8480`). Default value is `20000`.
 ms:waitForAppLaunch | Similar to `createSessionTimeout`, but in seconds and is applied on the server side. Enables Appium Windows Driver to wait for a defined amount of time after an app launch is initiated prior to attaching to the application session. The limit for this is 50 seconds.
 ms:experimental-webdriver | Enables experimental features and optimizations. See Appium Windows Driver release notes for more details on this capability. `false` by default.
-systemPort | The port number to execute Appium Windows Driver server listener on, for example `5556`. The port must not be occupied. The default starting port number for a new Appium Windows Driver session is `4724`. If this port is already busy then the next free port will be automatically selected.
-prerun | An object containing either `script` or `command` key. The value of each key must be a valid PowerShell script or command to be executed prior to the WinAppDriver session startup. See [Power Shell commands execution](#power-shell-commands-execution) for more details. Example: `{script: 'Get-Process outlook -ErrorAction SilentlyContinue'}`
-postrun | An object containing either `script` or `command` key. The value of each key must be a valid PowerShell script or command to be executed after WinAppDriver session is stopped. See [Power Shell commands execution](#power-shell-commands-execution) for more details.
+appium:systemPort | The port number to execute Appium Windows Driver server listener on, for example `5556`. The port must not be occupied. The default starting port number for a new Appium Windows Driver session is `4724`. If this port is already busy then the next free port will be automatically selected.
+appium:prerun | An object containing either `script` or `command` key. The value of each key must be a valid PowerShell script or command to be executed prior to the WinAppDriver session startup. See [Power Shell commands execution](#power-shell-commands-execution) for more details. Example: `{script: 'Get-Process outlook -ErrorAction SilentlyContinue'}`
+appium:postrun | An object containing either `script` or `command` key. The value of each key must be a valid PowerShell script or command to be executed after WinAppDriver session is stopped. See [Power Shell commands execution](#power-shell-commands-execution) for more details.
 
 ## Example
 
