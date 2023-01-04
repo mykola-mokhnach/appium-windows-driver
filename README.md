@@ -133,14 +133,14 @@ else:
 
 Appium Windows Driver supports the same location strategies [the WinAppDriver supports](https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md#supported-locators-to-find-ui-elements):
 
-Name | Description | Example
---- | --- | ---
-accessibility id | This strategy is AutomationId attribute in inspect.exe | AppNameTitle
-class name | This strategy is ClassName attribute in inspect.exe | TextBlock
-id | This strategy is RuntimeId (decimal) attribute in inspect.exe | 42.333896.3.1
-name | This strategy is Name attribute in inspect.exe | Calculator
-tag name | This strategy is LocalizedControlType (upper camel case) attribute in inspect.exe since Appium Windows Sriver 2.1.1 | Text
-xpath | This strategy allows to create custom XPath queries on any attribute exposed by inspect.exe. Only XPath 1.0 is supported | (//Button)[2]
+Name | Description | Speed Ranking | Example
+--- | --- | --- | ---
+accessibility id | This strategy is AutomationId attribute in inspect.exe | `⭐⭐⭐⭐⭐` | AppNameTitle
+class name | This strategy is ClassName attribute in inspect.exe | `⭐⭐⭐⭐⭐` | TextBlock
+id | This strategy is RuntimeId (decimal) attribute in inspect.exe | `⭐⭐⭐⭐⭐` | 42.333896.3.1
+name | This strategy is Name attribute in inspect.exe | `⭐⭐⭐⭐⭐` | Calculator
+tag name | This strategy is LocalizedControlType (upper camel case) attribute in inspect.exe since Appium Windows Driver 2.1.1 | `⭐⭐⭐⭐⭐` | Text
+xpath | This strategy allows to create custom XPath queries on any attribute exposed by inspect.exe. Only XPath 1.0 is supported | `⭐⭐⭐` | (//Button)[2]
 
 ## Platform-Specific Extensions
 
