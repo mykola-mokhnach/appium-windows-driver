@@ -10,7 +10,7 @@ Appium Windows Driver is a test automation tool for Windows devices and acts as 
 
 > **Note**
 >
-> Since version 2.0.0 Windows driver has dropped the support of Appium 1, and is only compatible to Appium 2. Use the `appium driver install windows`
+> Since version 2.0.0 Windows driver has dropped the support of Appium 1, and is only compatible to Appium 2. Use the `appium driver install --package=appium-windows-driver windows`
 > command to add it to your Appium 2 dist.
 
 
