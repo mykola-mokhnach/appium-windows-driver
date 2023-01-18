@@ -1,3 +1,10 @@
+## [2.3.5](https://github.com/appium/appium-windows-driver/compare/v2.3.4...v2.3.5) (2023-01-18)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump rimraf from 3.0.2 to 4.1.1 ([#161](https://github.com/appium/appium-windows-driver/issues/161)) ([0b8db44](https://github.com/appium/appium-windows-driver/commit/0b8db446040cd204d89bea516f833435bc6b2be9))
+
 ## [2.3.4](https://github.com/appium/appium-windows-driver/compare/v2.3.3...v2.3.4) (2023-01-17)
 
 
