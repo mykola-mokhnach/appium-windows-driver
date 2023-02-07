@@ -22,7 +22,7 @@ jobs:
         # lts3=$(cat eol.list | head -3 | tail -1)
         # VERSIONS="[$lts1, $lts2, $lts3]"
         VERSIONS="[$lts1, $lts2]"
-        echo ::set-output name=versions::${VERSIONS}
+        echo "versions=${VERSIONS}" >> "$GITHUB_OUTPUT"
 
   test:
     needs:
