@@ -1,3 +1,10 @@
+## [2.4.0](https://github.com/appium/appium-windows-driver/compare/v2.3.5...v2.4.0) (2023-02-16)
+
+
+### Features
+
+* Add an extension to perform mouse clicks ([#163](https://github.com/appium/appium-windows-driver/issues/163)) ([6809872](https://github.com/appium/appium-windows-driver/commit/6809872f1adaed260b20ab14af6091b6e3db6934))
+
 ## [2.3.5](https://github.com/appium/appium-windows-driver/compare/v2.3.4...v2.3.5) (2023-01-18)
 
 
