@@ -1,3 +1,10 @@
+## [2.5.0](https://github.com/appium/appium-windows-driver/compare/v2.4.0...v2.5.0) (2023-02-17)
+
+
+### Features
+
+* Add an extension to perform mouse wheel scroll  ([#164](https://github.com/appium/appium-windows-driver/issues/164)) ([979d796](https://github.com/appium/appium-windows-driver/commit/979d7968864b1970cc11527d584bb494ded02bd1))
+
 ## [2.4.0](https://github.com/appium/appium-windows-driver/compare/v2.3.5...v2.4.0) (2023-02-16)
 
 
