@@ -228,7 +228,6 @@ This is a shortcut for a single mouse click gesture.
 
 > :warning: **If your Node.js version is 17 and newer**:  As of January 2023 the [node-ffi-napi](https://github.com/node-ffi-napi), which we use to call native Windows APIs has a [bug](https://github.com/node-ffi-napi/node-ffi-napi/issues/244), which prevents it to work properly with Node.js version above 16. The only workaround until a fix is applied is to downgrade Node.js.
 
-
 #### Arguments
 
 Name | Type | Required | Description | Example
@@ -236,10 +235,26 @@ Name | Type | Required | Description | Example
 elementId | string | no | Hexadecimal identifier of the element to click on. If this parameter is missing then given coordinates will be parsed as absolute ones. Otherwise they are parsed as relative to the top left corner of this element. | 123e4567-e89b-12d3-a456-426614174000
 x | number | no | Integer horizontal coordinate of the click point. Both x and y coordinates must be provided or none of them if elementId is present. In such case the gesture will be performed at the center point of the given element. | 100
 y | number | no | Integer vertical coordinate of the click point. Both x and y coordinates must be provided or none of them if elementId is present. In such case the gesture will be performed at the center point of the given element. | 100
-button | string | no | Name ofthe mouse button to be clicked. An exception is thrown if an unknown button name
-is provided. Supported button names are: left, middle, right, back, forward. The default value is `left` | right 
-modifierKeys | string[] or string | no | List of possible keys or a single key name to depress while the click is being performed. Supported key names are: Shift, Ctrl, Alt, Win. For example, in order to keep Ctrl+Alt depressed while clicking, provide the value of ['ctrl', 'alt'] | 'win'
+button | string | no | Name of the mouse button to be clicked. An exception is thrown if an unknown button name is provided. Supported button names are: left, middle, right, back, forward. The default value is `left` | right 
+modifierKeys | string[] or string | no | List of possible keys or a single key name to depress while the click is being performed. Supported key names are: Shift, Ctrl, Alt, Win. For example, in order to keep Ctrl+Alt depressed while clicking, provide the value of ['ctrl', 'alt'] | win
 durationMs | number | no | The number of milliseconds to wait between pressing and releasing the mouse button. By default no delay is applied, which simulates a regular click. | 500
+
+### windows: scroll
+
+This is a shortcut for a mouse wheel scroll gesture.
+
+> :warning: **If your Node.js version is 17 and newer**:  As of January 2023 the [node-ffi-napi](https://github.com/node-ffi-napi), which we use to call native Windows APIs has a [bug](https://github.com/node-ffi-napi/node-ffi-napi/issues/244), which prevents it to work properly with Node.js version above 16. The only workaround until a fix is applied is to downgrade Node.js.
+
+#### Arguments
+
+Name | Type | Required | Description | Example
+--- | --- | --- | --- | ---
+elementId | string | no | Same as in [windows: click](#windows-click) | 123e4567-e89b-12d3-a456-426614174000
+x | number | no | Same as in [windows: click](#windows-click) | 100
+y | number | no | Same as in [windows: click](#windows-click) | 100
+deltaX | number | no | The amount of horizontal wheel movement. A positive value indicates that the wheel was rotated to the right; a negative value indicates that the wheel was rotated to the left. Either this value or deltaY must be provided, but not both. | -100
+deltaY | number | no | The amount of vertical wheel movement. A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user. Either this value or deltaX must be provided, but not both. | 100
+modifierKeys | string[] or string | no | Same as in [windows: click](#windows-click) | win
 
 
 ## Environment Variables
