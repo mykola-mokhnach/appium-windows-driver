@@ -1,3 +1,10 @@
+## [2.6.0](https://github.com/appium/appium-windows-driver/compare/v2.5.0...v2.6.0) (2023-02-18)
+
+
+### Features
+
+* Add an extension to perform drag and drop gesture ([#165](https://github.com/appium/appium-windows-driver/issues/165)) ([31abaf5](https://github.com/appium/appium-windows-driver/commit/31abaf54b0fe5991ef9e23ffdb565c69c134cb0b))
+
 ## [2.5.0](https://github.com/appium/appium-windows-driver/compare/v2.4.0...v2.5.0) (2023-02-17)
 
 
