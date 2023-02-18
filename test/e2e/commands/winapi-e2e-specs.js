@@ -32,6 +32,14 @@ describe('winapi', function () {
       });
     });
 
+    it('performs double click', async function () {
+      await commands.windowsClick({
+        x: 100,
+        y: 100,
+        times: 2,
+      });
+    });
+
     it('performs context click', async function () {
       await commands.windowsClick({
         x: 100,
@@ -127,6 +135,19 @@ describe('winapi', function () {
       for (const errData of errDatas) {
         await commands.windowsScroll(errData).should.be.rejected;
       }
+    });
+  });
+
+  describe('mouseClickAndDrag', function () {
+    it('performs drag gesture with Ctrl+Shift depressed', async function () {
+      await commands.windowsClickAndDrag({
+        startX: 600,
+        startY: 300,
+        endX: 500,
+        endY: 400,
+        modifierKeys: ['ctrl', 'shift'],
+      });
+
     });
   });
 
