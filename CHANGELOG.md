@@ -1,3 +1,10 @@
+## [2.7.0](https://github.com/appium/appium-windows-driver/compare/v2.6.0...v2.7.0) (2023-02-19)
+
+
+### Features
+
+* Add an extension to press arbitrary keys ([#166](https://github.com/appium/appium-windows-driver/issues/166)) ([8418f1e](https://github.com/appium/appium-windows-driver/commit/8418f1e34f8e292b1f3fba5b973fd26cd3a1d56c))
+
 ## [2.6.0](https://github.com/appium/appium-windows-driver/compare/v2.5.0...v2.6.0) (2023-02-18)
 
 
