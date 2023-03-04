@@ -1,3 +1,10 @@
+## [2.7.1](https://github.com/appium/appium-windows-driver/compare/v2.7.0...v2.7.1) (2023-03-04)
+
+
+### Miscellaneous Chores
+
+* Move napi-based modules to optional dependencies ([#167](https://github.com/appium/appium-windows-driver/issues/167)) ([fe38687](https://github.com/appium/appium-windows-driver/commit/fe386871a73378330ec4fb10c9ef1c417f674728))
+
 ## [2.7.0](https://github.com/appium/appium-windows-driver/compare/v2.6.0...v2.7.0) (2023-02-19)
 
 
