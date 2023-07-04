@@ -1,3 +1,10 @@
+## [2.8.0](https://github.com/appium/appium-windows-driver/compare/v2.7.3...v2.8.0) (2023-07-04)
+
+
+### Features
+
+* Add support for hover gesture ([#178](https://github.com/appium/appium-windows-driver/issues/178)) ([58c0d14](https://github.com/appium/appium-windows-driver/commit/58c0d1452753737b654a50318c900c1216e53ffe))
+
 ## [2.7.3](https://github.com/appium/appium-windows-driver/compare/v2.7.2...v2.7.3) (2023-06-07)
 
 
