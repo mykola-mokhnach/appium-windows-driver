@@ -1,3 +1,10 @@
+## [2.9.0](https://github.com/appium/appium-windows-driver/compare/v2.8.0...v2.9.0) (2023-07-05)
+
+
+### Features
+
+* Migrate native code from ffi-napi to koffi ([#179](https://github.com/appium/appium-windows-driver/issues/179)) ([e653503](https://github.com/appium/appium-windows-driver/commit/e65350380732ea9dcaee5da73fa4abaad33fb05c))
+
 ## [2.8.0](https://github.com/appium/appium-windows-driver/compare/v2.7.3...v2.8.0) (2023-07-04)
 
 
