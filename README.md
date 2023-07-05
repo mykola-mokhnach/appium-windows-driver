@@ -21,7 +21,6 @@ Beside of standard Appium requirements Appium Windows Driver adds the following 
 - Appium Windows Driver only supports Windows 10 as the host.
 - [Developer mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) must be enabled
 - Appium downloads and installs WinAppDriver package automatically upon executing its installation scripts, although, the actual binary version could be out of date. In such case you could download and install the most recent version of WinAppDriver manually from the [GitHub releases](https://github.com/microsoft/WinAppDriver/releases) page.
-- _Optionally_, if you need some Windows extensions that use native WinAPI calls, like [windows: click](#windows-click) one to work, you need to have the latest version of Visual Studio including the "Desktop development with C++" workload installed.
 
 Appium Windows Driver supports the following capabilities:
 
