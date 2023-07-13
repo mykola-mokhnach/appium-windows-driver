@@ -1,3 +1,10 @@
+## [2.9.2](https://github.com/appium/appium-windows-driver/compare/v2.9.1...v2.9.2) (2023-07-13)
+
+
+### Bug Fixes
+
+* Coordinates type ([f1bc8cd](https://github.com/appium/appium-windows-driver/commit/f1bc8cdb0d0089a197193d618b74a308e399031d))
+
 ## [2.9.1](https://github.com/appium/appium-windows-driver/compare/v2.9.0...v2.9.1) (2023-07-13)
 
 
