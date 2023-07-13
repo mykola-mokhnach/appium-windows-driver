@@ -1,3 +1,10 @@
+## [2.9.1](https://github.com/appium/appium-windows-driver/compare/v2.9.0...v2.9.1) (2023-07-13)
+
+
+### Miscellaneous Chores
+
+* Optimize screen size calculation for mouse gestures emulation ([#181](https://github.com/appium/appium-windows-driver/issues/181)) ([14dad04](https://github.com/appium/appium-windows-driver/commit/14dad044754d8adb8df5e5b1bd46c2e0a30cc731))
+
 ## [2.9.0](https://github.com/appium/appium-windows-driver/compare/v2.8.0...v2.9.0) (2023-07-05)
 
 
