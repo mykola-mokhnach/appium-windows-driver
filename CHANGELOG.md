@@ -1,3 +1,10 @@
+## [2.9.3](https://github.com/appium/appium-windows-driver/compare/v2.9.2...v2.9.3) (2023-08-14)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump lint-staged from 13.3.0 to 14.0.0 ([#187](https://github.com/appium/appium-windows-driver/issues/187)) ([2323707](https://github.com/appium/appium-windows-driver/commit/2323707b3e56546fc014ca5381964bf445f6a516))
+
 ## [2.9.2](https://github.com/appium/appium-windows-driver/compare/v2.9.1...v2.9.2) (2023-07-13)
 
 
