@@ -1,3 +1,10 @@
+## [2.10.0](https://github.com/appium/appium-windows-driver/compare/v2.9.3...v2.10.0) (2023-08-15)
+
+
+### Features
+
+* Switch babel to typescript ([#188](https://github.com/appium/appium-windows-driver/issues/188)) ([c1f6cf2](https://github.com/appium/appium-windows-driver/commit/c1f6cf250ce33adab88d2f3caaa19aae6291a169))
+
 ## [2.9.3](https://github.com/appium/appium-windows-driver/compare/v2.9.2...v2.9.3) (2023-08-14)
 
 
