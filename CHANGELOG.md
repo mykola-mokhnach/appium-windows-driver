@@ -1,3 +1,10 @@
+## [2.10.1](https://github.com/appium/appium-windows-driver/compare/v2.10.0...v2.10.1) (2023-08-16)
+
+
+### Bug Fixes
+
+* Properly pass this context to getScreenSize helper ([#189](https://github.com/appium/appium-windows-driver/issues/189)) ([341c2e4](https://github.com/appium/appium-windows-driver/commit/341c2e4ed3f2f3da8f88191a5467bd5ebb0b07eb))
+
 ## [2.10.0](https://github.com/appium/appium-windows-driver/compare/v2.9.3...v2.10.0) (2023-08-15)
 
 
