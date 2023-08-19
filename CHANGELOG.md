@@ -1,3 +1,10 @@
+## [2.11.0](https://github.com/appium/appium-windows-driver/compare/v2.10.1...v2.11.0) (2023-08-19)
+
+
+### Features
+
+* Allow to elevate system privileges in runtime ([#191](https://github.com/appium/appium-windows-driver/issues/191)) ([95e0acb](https://github.com/appium/appium-windows-driver/commit/95e0acb66de9541718044bcada784c2464ebed31))
+
 ## [2.10.1](https://github.com/appium/appium-windows-driver/compare/v2.10.0...v2.10.1) (2023-08-16)
 
 
