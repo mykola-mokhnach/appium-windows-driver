@@ -1,3 +1,10 @@
+## [2.12.0](https://github.com/appium/appium-windows-driver/compare/v2.11.0...v2.12.0) (2023-08-20)
+
+
+### Features
+
+* Add extensions to get and set Windows clipboard ([#192](https://github.com/appium/appium-windows-driver/issues/192)) ([8a1791d](https://github.com/appium/appium-windows-driver/commit/8a1791d4845193c1d0c3951ee4207ed56db56825))
+
 ## [2.11.0](https://github.com/appium/appium-windows-driver/compare/v2.10.1...v2.11.0) (2023-08-19)
 
 
