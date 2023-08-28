@@ -1,3 +1,10 @@
+## [2.12.2](https://github.com/appium/appium-windows-driver/compare/v2.12.1...v2.12.2) (2023-08-28)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump conventional-changelog-conventionalcommits ([#196](https://github.com/appium/appium-windows-driver/issues/196)) ([f9873df](https://github.com/appium/appium-windows-driver/commit/f9873df1d75fd9e29cfc2b2bd43d9062ed88dcce))
+
 ## [2.12.1](https://github.com/appium/appium-windows-driver/compare/v2.12.0...v2.12.1) (2023-08-25)
 
 
