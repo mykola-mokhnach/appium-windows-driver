@@ -1,3 +1,11 @@
+## [2.12.3](https://github.com/appium/appium-windows-driver/compare/v2.12.2...v2.12.3) (2023-09-14)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @types/teen_process from 2.0.0 to 2.0.1 ([#202](https://github.com/appium/appium-windows-driver/issues/202)) ([9548c12](https://github.com/appium/appium-windows-driver/commit/9548c126e6bda8eed73ea5fa0a0156473ab4d16e))
+* **deps-dev:** bump sinon from 15.2.0 to 16.0.0 ([#203](https://github.com/appium/appium-windows-driver/issues/203)) ([84bcf01](https://github.com/appium/appium-windows-driver/commit/84bcf01b8b6ecb31a1fef7c0a805ad300e30c0d6))
+
 ## [2.12.2](https://github.com/appium/appium-windows-driver/compare/v2.12.1...v2.12.2) (2023-08-28)
 
 
