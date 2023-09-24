@@ -1,6 +1,6 @@
 {
   "name": "appium-windows-driver",
-  "version": "2.12.3",
+  "version": "2.12.4",
   "description": "Appium bridge to WinAppDriver",
   "keywords": [
     "appium",

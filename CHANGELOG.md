@@ -1,3 +1,10 @@
+## [2.12.4](https://github.com/appium/appium-windows-driver/compare/v2.12.3...v2.12.4) (2023-09-24)
+
+
+### Bug Fixes
+
+* release package ([#208](https://github.com/appium/appium-windows-driver/issues/208)) ([bfa0713](https://github.com/appium/appium-windows-driver/commit/bfa071364ee9b184b19d1b39ceeb840b8698c482))
+
 ## [2.12.3](https://github.com/appium/appium-windows-driver/compare/v2.12.2...v2.12.3) (2023-09-14)
 
 
