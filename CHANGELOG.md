@@ -1,3 +1,13 @@
+## [2.12.5](https://github.com/appium/appium-windows-driver/compare/v2.12.4...v2.12.5) (2023-10-19)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @types/teen_process from 2.0.1 to 2.0.2 ([#218](https://github.com/appium/appium-windows-driver/issues/218)) ([73a4346](https://github.com/appium/appium-windows-driver/commit/73a43469653e5689c920170faea03f843a16dcde))
+* **deps-dev:** bump eslint-config-prettier from 8.10.0 to 9.0.0 ([#216](https://github.com/appium/appium-windows-driver/issues/216)) ([9f41200](https://github.com/appium/appium-windows-driver/commit/9f41200bdc56354f0c21c668ebd7480f785846a6))
+* **deps-dev:** bump lint-staged from 14.0.1 to 15.0.2 ([#217](https://github.com/appium/appium-windows-driver/issues/217)) ([0191562](https://github.com/appium/appium-windows-driver/commit/0191562f2d579d15ed3506d332dbc46ce2752b2b))
+* Use latest types version ([4b733ba](https://github.com/appium/appium-windows-driver/commit/4b733ba3ea5f3ca1b8da8e82eeb3542ec7e28d53))
+
 ## [2.12.4](https://github.com/appium/appium-windows-driver/compare/v2.12.3...v2.12.4) (2023-09-24)
 
 
