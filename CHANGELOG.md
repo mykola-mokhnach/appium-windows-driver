@@ -1,3 +1,10 @@
+## [2.12.6](https://github.com/appium/appium-windows-driver/compare/v2.12.5...v2.12.6) (2023-10-19)
+
+
+### Miscellaneous Chores
+
+* Use latest teen_process types ([86060ab](https://github.com/appium/appium-windows-driver/commit/86060abf23443474a3a0ce39b6812b3d04e9d072))
+
 ## [2.12.5](https://github.com/appium/appium-windows-driver/compare/v2.12.4...v2.12.5) (2023-10-19)
 
 
