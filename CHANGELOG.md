@@ -1,3 +1,10 @@
+## [2.12.7](https://github.com/appium/appium-windows-driver/compare/v2.12.6...v2.12.7) (2023-10-23)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump semantic-release from 21.1.2 to 22.0.5 ([#209](https://github.com/appium/appium-windows-driver/issues/209)) ([a367b40](https://github.com/appium/appium-windows-driver/commit/a367b407525ec3370bfc4968e98572315f3100ae))
+
 ## [2.12.6](https://github.com/appium/appium-windows-driver/compare/v2.12.5...v2.12.6) (2023-10-19)
 
 
