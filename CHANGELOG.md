@@ -1,3 +1,10 @@
+## [2.12.8](https://github.com/appium/appium-windows-driver/compare/v2.12.7...v2.12.8) (2023-10-24)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump sinon from 16.1.3 to 17.0.0 ([#221](https://github.com/appium/appium-windows-driver/issues/221)) ([340fd6c](https://github.com/appium/appium-windows-driver/commit/340fd6c5b6f45ab386a726766bb588d2afe83d69))
+
 ## [2.12.7](https://github.com/appium/appium-windows-driver/compare/v2.12.6...v2.12.7) (2023-10-23)
 
 
