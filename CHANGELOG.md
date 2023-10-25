@@ -1,3 +1,10 @@
+## [2.12.9](https://github.com/appium/appium-windows-driver/compare/v2.12.8...v2.12.9) (2023-10-25)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 5.62.0 to 6.9.0 ([#222](https://github.com/appium/appium-windows-driver/issues/222)) ([fd9227b](https://github.com/appium/appium-windows-driver/commit/fd9227bba268a0a34a4977426da4f5c0e6ed0295))
+
 ## [2.12.8](https://github.com/appium/appium-windows-driver/compare/v2.12.7...v2.12.8) (2023-10-24)
 
 
