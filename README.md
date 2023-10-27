@@ -149,7 +149,49 @@ xpath | This strategy allows to create custom XPath queries on any attribute exp
 
 ## Platform-Specific Extensions
 
-Beside of standard W3C APIs the driver provides the following custom command extensions to execute platform specific scenarios:
+Beside of standard W3C APIs the driver provides the below custom command extensions to execute platform specific scenarios. Use the following source code examples in order to invoke them from your client code:
+
+```java
+// Java 11+
+var result = driver.executeScript("windows: <methodName>", Map.of(
+    "arg1", "value1",
+    "arg2", "value2"
+    // you may add more pairs if needed or skip providing the map completely
+    // if all arguments are defined as optional
+));
+```
+
+```js
+// WebdriverIO
+const result = await driver.executeScript('windows: <methodName>', [{
+    arg1: "value1",
+    arg2: "value2",
+}]);
+```
+
+```python
+# Python
+result = driver.execute_script('windows: <methodName>', {
+    'arg1': 'value1',
+    'arg2': 'value2',
+})
+```
+
+```ruby
+# Ruby
+result = @driver.execute_script 'windows: <methodName>', {
+    arg1: 'value1',
+    arg2: 'value2',
+}
+```
+
+```csharp
+// Dotnet
+object result = driver.ExecuteScript("windows: <methodName>", new Dictionary<string, object>() {
+    {"arg1", "value1"},
+    {"arg2", "value2"}
+});
+```
 
 ### windows: startRecordingScreen
 
