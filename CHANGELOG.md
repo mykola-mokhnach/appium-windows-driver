@@ -1,3 +1,10 @@
+## [2.12.10](https://github.com/appium/appium-windows-driver/compare/v2.12.9...v2.12.10) (2023-11-01)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump asyncbox from 2.9.4 to 3.0.0 ([#223](https://github.com/appium/appium-windows-driver/issues/223)) ([b866e5e](https://github.com/appium/appium-windows-driver/commit/b866e5ed3cc5ceaddefa75092d56da20ab804f54))
+
 ## [2.12.9](https://github.com/appium/appium-windows-driver/compare/v2.12.8...v2.12.9) (2023-10-25)
 
 
