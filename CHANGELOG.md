@@ -1,3 +1,10 @@
+## [2.12.12](https://github.com/appium/appium-windows-driver/compare/v2.12.11...v2.12.12) (2023-11-08)
+
+
+### Miscellaneous Chores
+
+* use omit to prune dev and peer ([#225](https://github.com/appium/appium-windows-driver/issues/225)) ([9abe66f](https://github.com/appium/appium-windows-driver/commit/9abe66f7c6a501f4fa971fa1af718228b68d511e))
+
 ## [2.12.11](https://github.com/appium/appium-windows-driver/compare/v2.12.10...v2.12.11) (2023-11-06)
 
 
