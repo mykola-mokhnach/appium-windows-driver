@@ -1,3 +1,10 @@
+## [2.12.13](https://github.com/appium/appium-windows-driver/compare/v2.12.12...v2.12.13) (2023-11-21)
+
+
+### Bug Fixes
+
+* Update the default interval in clickAndDrag ([#226](https://github.com/appium/appium-windows-driver/issues/226)) ([d9f2957](https://github.com/appium/appium-windows-driver/commit/d9f295730232807b60990e56064d241d21fb1e05))
+
 ## [2.12.12](https://github.com/appium/appium-windows-driver/compare/v2.12.11...v2.12.12) (2023-11-08)
 
 
