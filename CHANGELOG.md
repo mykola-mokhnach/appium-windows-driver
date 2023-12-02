@@ -1,3 +1,10 @@
+## [2.12.14](https://github.com/appium/appium-windows-driver/compare/v2.12.13...v2.12.14) (2023-12-02)
+
+
+### Miscellaneous Chores
+
+* update publish.js.yml ([#228](https://github.com/appium/appium-windows-driver/issues/228)) ([14167dc](https://github.com/appium/appium-windows-driver/commit/14167dcae6ff8e096441eccbab4e9d730d88fb4a))
+
 ## [2.12.13](https://github.com/appium/appium-windows-driver/compare/v2.12.12...v2.12.13) (2023-11-21)
 
 
