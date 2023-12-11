@@ -1,3 +1,10 @@
+## [2.12.15](https://github.com/appium/appium-windows-driver/compare/v2.12.14...v2.12.15) (2023-12-11)
+
+
+### Bug Fixes
+
+* Tune `windows: scroll` API ([#231](https://github.com/appium/appium-windows-driver/issues/231)) ([fc469c4](https://github.com/appium/appium-windows-driver/commit/fc469c4512f82bbcb9a874fceb42221e9804f4b4))
+
 ## [2.12.14](https://github.com/appium/appium-windows-driver/compare/v2.12.13...v2.12.14) (2023-12-02)
 
 
