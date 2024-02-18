@@ -1,3 +1,10 @@
+## [2.12.17](https://github.com/appium/appium-windows-driver/compare/v2.12.16...v2.12.17) (2024-02-18)
+
+
+### Bug Fixes
+
+* Perform click action when necessary ([#240](https://github.com/appium/appium-windows-driver/issues/240)) ([8c7288f](https://github.com/appium/appium-windows-driver/commit/8c7288f64006b3c44b5c3c7dd1bc12d339d7c75f))
+
 ## [2.12.16](https://github.com/appium/appium-windows-driver/compare/v2.12.15...v2.12.16) (2024-01-16)
 
 
