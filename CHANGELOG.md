@@ -1,3 +1,10 @@
+## [2.12.18](https://github.com/appium/appium-windows-driver/compare/v2.12.17...v2.12.18) (2024-03-07)
+
+
+### Miscellaneous Chores
+
+* bump typescript ([76885bc](https://github.com/appium/appium-windows-driver/commit/76885bc9e6dee070fce46cf161cddd954289d8c8))
+
 ## [2.12.17](https://github.com/appium/appium-windows-driver/compare/v2.12.16...v2.12.17) (2024-02-18)
 
 
