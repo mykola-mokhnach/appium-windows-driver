@@ -1,3 +1,10 @@
+## [2.12.19](https://github.com/appium/appium-windows-driver/compare/v2.12.18...v2.12.19) (2024-04-05)
+
+
+### Miscellaneous Chores
+
+* Bump dependencies ([#254](https://github.com/appium/appium-windows-driver/issues/254)) ([35a061d](https://github.com/appium/appium-windows-driver/commit/35a061d02c5419a886da59add6784e2a1ab0581a))
+
 ## [2.12.18](https://github.com/appium/appium-windows-driver/compare/v2.12.17...v2.12.18) (2024-03-07)
 
 
