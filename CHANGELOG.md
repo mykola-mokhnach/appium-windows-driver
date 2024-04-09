@@ -1,3 +1,10 @@
+## [2.12.20](https://github.com/appium/appium-windows-driver/compare/v2.12.19...v2.12.20) (2024-04-09)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @typescript-eslint/parser from 6.21.0 to 7.6.0 ([#256](https://github.com/appium/appium-windows-driver/issues/256)) ([f84a5e5](https://github.com/appium/appium-windows-driver/commit/f84a5e57110d2f9df9f65fcc0ec5e4520109681d))
+
 ## [2.12.19](https://github.com/appium/appium-windows-driver/compare/v2.12.18...v2.12.19) (2024-04-05)
 
 
