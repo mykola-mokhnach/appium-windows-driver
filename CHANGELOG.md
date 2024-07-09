@@ -1,3 +1,9 @@
+## [2.12.26](https://github.com/appium/appium-windows-driver/compare/v2.12.25...v2.12.26) (2024-07-09)
+
+### Miscellaneous Chores
+
+* Remove extra import ([1d02693](https://github.com/appium/appium-windows-driver/commit/1d026932d921f3c477c671107692d2a9d6aea182))
+
 ## [2.12.25](https://github.com/appium/appium-windows-driver/compare/v2.12.24...v2.12.25) (2024-07-09)
 
 ### Miscellaneous Chores
