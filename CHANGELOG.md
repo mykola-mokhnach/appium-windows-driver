@@ -1,3 +1,9 @@
+## [2.12.25](https://github.com/appium/appium-windows-driver/compare/v2.12.24...v2.12.25) (2024-07-09)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump chai and chai-as-promised ([#264](https://github.com/appium/appium-windows-driver/issues/264)) ([a01b2fb](https://github.com/appium/appium-windows-driver/commit/a01b2fbfc971f311ed91e1470b9c64aae8c4944f))
+
 ## [2.12.24](https://github.com/appium/appium-windows-driver/compare/v2.12.23...v2.12.24) (2024-06-04)
 
 ### Miscellaneous Chores
