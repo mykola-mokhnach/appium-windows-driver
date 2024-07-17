@@ -1,3 +1,9 @@
+## [2.12.27](https://github.com/appium/appium-windows-driver/compare/v2.12.26...v2.12.27) (2024-07-17)
+
+### Miscellaneous Chores
+
+* **types:** export constraints and opts types ([50cbe48](https://github.com/appium/appium-windows-driver/commit/50cbe48d944d59d7d57ff1eaacdc696fb9bec3a4))
+
 ## [2.12.26](https://github.com/appium/appium-windows-driver/compare/v2.12.25...v2.12.26) (2024-07-09)
 
 ### Miscellaneous Chores
