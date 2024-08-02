@@ -1,3 +1,9 @@
+## [2.12.29](https://github.com/appium/appium-windows-driver/compare/v2.12.28...v2.12.29) (2024-08-02)
+
+### Miscellaneous Chores
+
+* Replace fancy-log dependency with appium logger ([#270](https://github.com/appium/appium-windows-driver/issues/270)) ([afc40ce](https://github.com/appium/appium-windows-driver/commit/afc40ce864b7ac5758188b853098eb1724443802))
+
 ## [2.12.28](https://github.com/appium/appium-windows-driver/compare/v2.12.27...v2.12.28) (2024-07-29)
 
 ### Miscellaneous Chores
