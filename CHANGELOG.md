@@ -1,3 +1,9 @@
+## [2.12.30](https://github.com/appium/appium-windows-driver/compare/v2.12.29...v2.12.30) (2024-08-09)
+
+### Bug Fixes
+
+* Add workaround for setting the window position ([#271](https://github.com/appium/appium-windows-driver/issues/271)) ([6720df5](https://github.com/appium/appium-windows-driver/commit/6720df535baf9abf598812df9f51b4703071e4bd))
+
 ## [2.12.29](https://github.com/appium/appium-windows-driver/compare/v2.12.28...v2.12.29) (2024-08-02)
 
 ### Miscellaneous Chores
