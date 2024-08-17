@@ -1,3 +1,9 @@
+## [2.12.31](https://github.com/appium/appium-windows-driver/compare/v2.12.30...v2.12.31) (2024-08-17)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump webdriverio from 8.40.3 to 9.0.1 ([#273](https://github.com/appium/appium-windows-driver/issues/273)) ([34f6bc4](https://github.com/appium/appium-windows-driver/commit/34f6bc4d7dc94a560f4dad6955c5cba10b80edfc))
+
 ## [2.12.30](https://github.com/appium/appium-windows-driver/compare/v2.12.29...v2.12.30) (2024-08-09)
 
 ### Bug Fixes
