@@ -1,3 +1,15 @@
+## [3.0.0](https://github.com/appium/appium-windows-driver/compare/v2.12.32...v3.0.0) (2024-09-16)
+
+### ⚠ BREAKING CHANGES
+
+* WAD is does not get installed automatically anymore upon driver install
+
+From now on the driver install won't include the automatic server deployment. Instead it is expected that WAD server is installed via the driver script: `appium driver run windows install-wad <optional_wad_version>`.
+
+### Features
+
+* Move WAD server installation into a driver script ([#277](https://github.com/appium/appium-windows-driver/issues/277)) ([23ab085](https://github.com/appium/appium-windows-driver/commit/23ab08549f88d6c52e8ad872b08e97b8f5ec5edb))
+
 ## [2.12.32](https://github.com/appium/appium-windows-driver/compare/v2.12.31...v2.12.32) (2024-09-13)
 
 ### Miscellaneous Chores
