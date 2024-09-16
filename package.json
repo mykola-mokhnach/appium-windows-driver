@@ -36,24 +36,29 @@
     "platformNames": [
       "Windows"
     ],
+    "scripts": {
+      "install-wad": "./scripts/install-wad.mjs"
+    },
     "mainClass": "WindowsDriver"
   },
   "files": [
     "index.js",
-    "install-npm.js",
     "lib",
     "build/index.js",
     "build/install-npm.js",
     "build/lib",
     "CHANGELOG.md",
     "LICENSE",
-    "npm-shrinkwrap.json"
+    "npm-shrinkwrap.json",
+    "scripts"
   ],
   "dependencies": {
     "asyncbox": "^3.0.0",
+    "axios": "^1.7.7",
     "bluebird": "^3.5.1",
     "lodash": "^4.6.1",
     "portscanner": "^2.2.0",
+    "semver": "^7.6.3",
     "source-map-support": "^0.x",
     "teen_process": "^2.0.1"
   },
@@ -64,7 +69,6 @@
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "npm run build",
-    "install": "node install-npm.js",
     "test": "mocha --exit --timeout 1m \"./test/unit/**/*-specs.js\"",
     "e2e-test": "mocha --exit --timeout 10m \"./test/e2e/**/*-specs.js\""
   },
