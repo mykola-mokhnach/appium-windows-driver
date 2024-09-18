@@ -44,9 +44,7 @@
   "files": [
     "index.js",
     "lib",
-    "build/index.js",
-    "build/install-npm.js",
-    "build/lib",
+    "build",
     "CHANGELOG.md",
     "LICENSE",
     "npm-shrinkwrap.json",
