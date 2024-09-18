@@ -1,3 +1,9 @@
+## [3.0.1](https://github.com/appium/appium-windows-driver/compare/v3.0.0...v3.0.1) (2024-09-18)
+
+### Bug Fixes
+
+* Include all built files ([99f4b3d](https://github.com/appium/appium-windows-driver/commit/99f4b3d1d279719e7d90245e7a986b095708066c))
+
 ## [3.0.0](https://github.com/appium/appium-windows-driver/compare/v2.12.32...v3.0.0) (2024-09-16)
 
 ### ⚠ BREAKING CHANGES
