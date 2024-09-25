@@ -1,3 +1,9 @@
+## [3.0.2](https://github.com/appium/appium-windows-driver/compare/v3.0.1...v3.0.2) (2024-09-25)
+
+### Miscellaneous Chores
+
+* Remove unused dev dependencies ([2cc4a19](https://github.com/appium/appium-windows-driver/commit/2cc4a1921a48b136b3f72b2d68d8d1420d22a81c))
+
 ## [3.0.1](https://github.com/appium/appium-windows-driver/compare/v3.0.0...v3.0.1) (2024-09-18)
 
 ### Bug Fixes
