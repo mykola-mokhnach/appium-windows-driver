@@ -1,3 +1,9 @@
+## [3.1.0](https://github.com/appium/appium-windows-driver/compare/v3.0.2...v3.1.0) (2024-11-15)
+
+### Features
+
+* Allow specifying the /forcequit argument for WAD ([#282](https://github.com/appium/appium-windows-driver/issues/282)) ([a9dda08](https://github.com/appium/appium-windows-driver/commit/a9dda08bb4b56b2aea658a76007dbef17b69c7ab))
+
 ## [3.0.2](https://github.com/appium/appium-windows-driver/compare/v3.0.1...v3.0.2) (2024-09-25)
 
 ### Miscellaneous Chores
