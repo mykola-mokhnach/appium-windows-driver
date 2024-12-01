@@ -1,3 +1,9 @@
+## [3.1.1](https://github.com/appium/appium-windows-driver/compare/v3.1.0...v3.1.1) (2024-12-01)
+
+### Miscellaneous Chores
+
+* Update deprecated method name ([#284](https://github.com/appium/appium-windows-driver/issues/284)) ([645e9e5](https://github.com/appium/appium-windows-driver/commit/645e9e581a6f8a7d66ff43c59647ed51ac39f238))
+
 ## [3.1.0](https://github.com/appium/appium-windows-driver/compare/v3.0.2...v3.1.0) (2024-11-15)
 
 ### Features
