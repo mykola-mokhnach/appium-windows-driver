@@ -1,3 +1,9 @@
+## [3.1.2](https://github.com/appium/appium-windows-driver/compare/v3.1.1...v3.1.2) (2024-12-03)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump mocha from 10.8.2 to 11.0.1 ([#285](https://github.com/appium/appium-windows-driver/issues/285)) ([20d2390](https://github.com/appium/appium-windows-driver/commit/20d23902f763476f3d091a36b8fa0bbbc0c6f41a))
+
 ## [3.1.1](https://github.com/appium/appium-windows-driver/compare/v3.1.0...v3.1.1) (2024-12-01)
 
 ### Miscellaneous Chores
