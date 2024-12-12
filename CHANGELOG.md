@@ -1,3 +1,9 @@
+## [3.1.3](https://github.com/appium/appium-windows-driver/compare/v3.1.2...v3.1.3) (2024-12-12)
+
+### Miscellaneous Chores
+
+* Replace occurrences of the deprecated errorAndThrow API ([#286](https://github.com/appium/appium-windows-driver/issues/286)) ([0f81db7](https://github.com/appium/appium-windows-driver/commit/0f81db72137ec6f2e1dd0ad2aa52635ddcba4e9a))
+
 ## [3.1.2](https://github.com/appium/appium-windows-driver/compare/v3.1.1...v3.1.2) (2024-12-03)
 
 ### Miscellaneous Chores
