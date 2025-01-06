@@ -1,3 +1,9 @@
+## [3.1.4](https://github.com/appium/appium-windows-driver/compare/v3.1.3...v3.1.4) (2025-01-06)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @appium/eslint-config-appium-ts from 0.3.3 to 1.0.1 ([#287](https://github.com/appium/appium-windows-driver/issues/287)) ([8a5b88e](https://github.com/appium/appium-windows-driver/commit/8a5b88e336eaf7951d9b07e0b9fc6a0faa936141))
+
 ## [3.1.3](https://github.com/appium/appium-windows-driver/compare/v3.1.2...v3.1.3) (2024-12-12)
 
 ### Miscellaneous Chores
