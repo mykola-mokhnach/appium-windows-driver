@@ -1,3 +1,24 @@
+## [4.0.0](https://github.com/appium/appium-windows-driver/compare/v3.1.4...v4.0.0) (2025-02-01)
+
+### ⚠ BREAKING CHANGES
+
+* The following method arguments have been **modified**:
+- startRecordingScreen
+- stopRecordingScreen
+- windowsDeleteFile
+- windowsDeleteFolder
+- windowsClick
+- windowsScroll
+- windowsClickAndDrag
+- windowsHover
+- windowsKeys
+- windowsSetClipboard
+- windowsGetClipboard
+
+### Features
+
+* Add support of executeMethodMap ([#290](https://github.com/appium/appium-windows-driver/issues/290)) ([a3c0849](https://github.com/appium/appium-windows-driver/commit/a3c08496cd3a5928fbdcd2aec824b966a4562b35))
+
 ## [3.1.4](https://github.com/appium/appium-windows-driver/compare/v3.1.3...v3.1.4) (2025-01-06)
 
 ### Miscellaneous Chores
