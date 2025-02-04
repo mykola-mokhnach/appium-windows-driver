@@ -1,3 +1,9 @@
+## [4.0.1](https://github.com/appium/appium-windows-driver/compare/v4.0.0...v4.0.1) (2025-02-04)
+
+### Miscellaneous Chores
+
+* Avoid throwing generic error for an unknown execute script name ([#291](https://github.com/appium/appium-windows-driver/issues/291)) ([1fe3482](https://github.com/appium/appium-windows-driver/commit/1fe3482cc0cf7e864d01df5606e10795d66dd50d))
+
 ## [4.0.0](https://github.com/appium/appium-windows-driver/compare/v3.1.4...v4.0.0) (2025-02-01)
 
 ### ⚠ BREAKING CHANGES
