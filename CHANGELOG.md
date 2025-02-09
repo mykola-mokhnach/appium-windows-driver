@@ -1,3 +1,9 @@
+## [4.1.0](https://github.com/appium/appium-windows-driver/compare/v4.0.1...v4.1.0) (2025-02-09)
+
+### Features
+
+* Make mouse coordinates DPI-aware ([#293](https://github.com/appium/appium-windows-driver/issues/293)) ([dc32a77](https://github.com/appium/appium-windows-driver/commit/dc32a77fa34fc9b115732bb9e30dde5adca48cbb))
+
 ## [4.0.1](https://github.com/appium/appium-windows-driver/compare/v4.0.0...v4.0.1) (2025-02-04)
 
 ### Miscellaneous Chores
