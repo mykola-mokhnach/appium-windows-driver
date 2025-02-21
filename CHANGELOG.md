@@ -1,3 +1,9 @@
+## [4.1.2](https://github.com/appium/appium-windows-driver/compare/v4.1.1...v4.1.2) (2025-02-21)
+
+### Bug Fixes
+
+* Accept reqBasePath proxy option ([#295](https://github.com/appium/appium-windows-driver/issues/295)) ([a390a37](https://github.com/appium/appium-windows-driver/commit/a390a3740cde7f7c70141f3b30dd562821e9fa06))
+
 ## [4.1.1](https://github.com/appium/appium-windows-driver/compare/v4.1.0...v4.1.1) (2025-02-09)
 
 ### Miscellaneous Chores
