@@ -1,3 +1,9 @@
+## [4.1.3](https://github.com/appium/appium-windows-driver/compare/v4.1.2...v4.1.3) (2025-02-22)
+
+### Bug Fixes
+
+* Pass reqBasePath as part of WinAppDriverOptions ([#296](https://github.com/appium/appium-windows-driver/issues/296)) ([0b18c55](https://github.com/appium/appium-windows-driver/commit/0b18c55f2ed756f3cf3872f47c38289f56674bc2))
+
 ## [4.1.2](https://github.com/appium/appium-windows-driver/compare/v4.1.1...v4.1.2) (2025-02-21)
 
 ### Bug Fixes
