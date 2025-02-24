@@ -1,3 +1,9 @@
+## [4.1.4](https://github.com/appium/appium-windows-driver/compare/v4.1.3...v4.1.4) (2025-02-24)
+
+### Bug Fixes
+
+* Update windowsSetClipboard method mapping ([#298](https://github.com/appium/appium-windows-driver/issues/298)) ([3b944fd](https://github.com/appium/appium-windows-driver/commit/3b944fd56fe24ae6c7f398db06a4d6bf1c75f144))
+
 ## [4.1.3](https://github.com/appium/appium-windows-driver/compare/v4.1.2...v4.1.3) (2025-02-22)
 
 ### Bug Fixes
