@@ -1,3 +1,9 @@
+## [4.1.5](https://github.com/appium/appium-windows-driver/compare/v4.1.4...v4.1.5) (2025-02-26)
+
+### Bug Fixes
+
+* Session deletion proxy ([d78808f](https://github.com/appium/appium-windows-driver/commit/d78808f619d7a4a4c09342f03052598504399130))
+
 ## [4.1.4](https://github.com/appium/appium-windows-driver/compare/v4.1.3...v4.1.4) (2025-02-24)
 
 ### Bug Fixes
