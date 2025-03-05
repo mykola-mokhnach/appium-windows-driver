@@ -1,3 +1,9 @@
+## [4.2.1](https://github.com/appium/appium-windows-driver/compare/v4.2.0...v4.2.1) (2025-03-05)
+
+### Bug Fixes
+
+* Clearing the recent recorded video if start new one. ([#302](https://github.com/appium/appium-windows-driver/issues/302)) ([d8c8b87](https://github.com/appium/appium-windows-driver/commit/d8c8b87c4aec62546ba2fb59c9f522b21a78a6eb))
+
 ## [4.2.0](https://github.com/appium/appium-windows-driver/compare/v4.1.5...v4.2.0) (2025-03-02)
 
 ### Features
