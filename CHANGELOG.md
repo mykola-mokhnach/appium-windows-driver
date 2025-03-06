@@ -1,3 +1,9 @@
+## [4.2.2](https://github.com/appium/appium-windows-driver/compare/v4.2.1...v4.2.2) (2025-03-06)
+
+### Bug Fixes
+
+* executeMethodMap of startRecordingScreen ([#303](https://github.com/appium/appium-windows-driver/issues/303)) ([3fc1e96](https://github.com/appium/appium-windows-driver/commit/3fc1e960c494ce14187736e1933f22aa7519e710))
+
 ## [4.2.1](https://github.com/appium/appium-windows-driver/compare/v4.2.0...v4.2.1) (2025-03-05)
 
 ### Bug Fixes
