@@ -1,3 +1,9 @@
+## [4.2.3](https://github.com/appium/appium-windows-driver/compare/v4.2.2...v4.2.3) (2025-03-25)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump sinon from 19.0.5 to 20.0.0 ([#304](https://github.com/appium/appium-windows-driver/issues/304)) ([b5fb040](https://github.com/appium/appium-windows-driver/commit/b5fb0400cc4b8fc86364cbc182cc90a09535d35d))
+
 ## [4.2.2](https://github.com/appium/appium-windows-driver/compare/v4.2.1...v4.2.2) (2025-03-06)
 
 ### Bug Fixes
