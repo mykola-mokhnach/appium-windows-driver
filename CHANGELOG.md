@@ -1,3 +1,9 @@
+## [4.3.0](https://github.com/appium/appium-windows-driver/compare/v4.2.3...v4.3.0) (2025-04-07)
+
+### Features
+
+* Implement wadUrl capability ([#306](https://github.com/appium/appium-windows-driver/issues/306)) ([d5b9971](https://github.com/appium/appium-windows-driver/commit/d5b9971831630ea5ed626ca8a9e168b980e2b3f3))
+
 ## [4.2.3](https://github.com/appium/appium-windows-driver/compare/v4.2.2...v4.2.3) (2025-03-25)
 
 ### Miscellaneous Chores
