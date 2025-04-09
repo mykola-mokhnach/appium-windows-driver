@@ -1,3 +1,9 @@
+## [4.3.1](https://github.com/appium/appium-windows-driver/compare/v4.3.0...v4.3.1) (2025-04-09)
+
+### Bug Fixes
+
+* Remove trailing slash from proxyOpts for custom server URL ([#308](https://github.com/appium/appium-windows-driver/issues/308)) ([824a52b](https://github.com/appium/appium-windows-driver/commit/824a52be70c4c764fa37da2f6b40fb74373c1bb9))
+
 ## [4.3.0](https://github.com/appium/appium-windows-driver/compare/v4.2.3...v4.3.0) (2025-04-07)
 
 ### Features
