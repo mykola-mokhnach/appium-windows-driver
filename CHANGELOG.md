@@ -1,3 +1,9 @@
+## [4.4.1](https://github.com/appium/appium-windows-driver/compare/v4.4.0...v4.4.1) (2025-04-25)
+
+### Bug Fixes
+
+* Type import ([b7e8a23](https://github.com/appium/appium-windows-driver/commit/b7e8a23054cd0fbfc997f22625574a9632aa4556))
+
 ## [4.4.0](https://github.com/appium/appium-windows-driver/compare/v4.3.1...v4.4.0) (2025-04-25)
 
 ### Features
