@@ -1,3 +1,9 @@
+## [4.4.0](https://github.com/appium/appium-windows-driver/compare/v4.3.1...v4.4.0) (2025-04-25)
+
+### Features
+
+* Support log commands ([#309](https://github.com/appium/appium-windows-driver/issues/309)) ([b96b4b5](https://github.com/appium/appium-windows-driver/commit/b96b4b5a7cb2751d14f8858b7fec4d8319068236))
+
 ## [4.3.1](https://github.com/appium/appium-windows-driver/compare/v4.3.0...v4.3.1) (2025-04-09)
 
 ### Bug Fixes
