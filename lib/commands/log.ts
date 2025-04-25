@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import type { WindowsDriver } from '../driver';
-import { LogDefRecord, StringRecord } from '@appium/types';
+import type { LogDefRecord, StringRecord } from '@appium/types';
 
 const COLOR_CODE_PATTERN = /\u001b\[(\d+(;\d+)*)?m/g; // eslint-disable-line no-control-regex
 const GET_SERVER_LOGS_FEATURE = 'get_server_logs';
