@@ -1,3 +1,9 @@
+## [4.4.2](https://github.com/appium/appium-windows-driver/compare/v4.4.1...v4.4.2) (2025-05-21)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump conventional-changelog-conventionalcommits ([#310](https://github.com/appium/appium-windows-driver/issues/310)) ([5c02ea8](https://github.com/appium/appium-windows-driver/commit/5c02ea8013ee98c798c239d7abbb9d0472361a15))
+
 ## [4.4.1](https://github.com/appium/appium-windows-driver/compare/v4.4.0...v4.4.1) (2025-04-25)
 
 ### Bug Fixes
