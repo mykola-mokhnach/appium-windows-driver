@@ -1,3 +1,9 @@
+## [4.4.3](https://github.com/appium/appium-windows-driver/compare/v4.4.2...v4.4.3) (2025-06-10)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @types/node from 22.15.31 to 24.0.0 ([#311](https://github.com/appium/appium-windows-driver/issues/311)) ([c9de9dd](https://github.com/appium/appium-windows-driver/commit/c9de9dd7c0ca3c4c79e578370ef4aa642b856502))
+
 ## [4.4.2](https://github.com/appium/appium-windows-driver/compare/v4.4.1...v4.4.2) (2025-05-21)
 
 ### Miscellaneous Chores
