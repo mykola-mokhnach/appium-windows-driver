@@ -1,3 +1,9 @@
+## [4.4.5](https://github.com/appium/appium-windows-driver/compare/v4.4.4...v4.4.5) (2025-07-26)
+
+### Miscellaneous Chores
+
+* Raise more user-friendly error if WAD server connection fails ([#317](https://github.com/appium/appium-windows-driver/issues/317)) ([ee93bf0](https://github.com/appium/appium-windows-driver/commit/ee93bf001da0acbb256276d591193acb89164f68))
+
 ## [4.4.4](https://github.com/appium/appium-windows-driver/compare/v4.4.3...v4.4.4) (2025-06-13)
 
 ### Miscellaneous Chores
