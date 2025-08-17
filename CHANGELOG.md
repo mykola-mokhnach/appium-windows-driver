@@ -1,3 +1,9 @@
+## [4.4.6](https://github.com/appium/appium-windows-driver/compare/v4.4.5...v4.4.6) (2025-08-17)
+
+### Bug Fixes
+
+* fix type error ([#320](https://github.com/appium/appium-windows-driver/issues/320)) ([dadaf07](https://github.com/appium/appium-windows-driver/commit/dadaf0781fd8c8c0b67165c7deaa47fe8249029e))
+
 ## [4.4.5](https://github.com/appium/appium-windows-driver/compare/v4.4.4...v4.4.5) (2025-07-26)
 
 ### Miscellaneous Chores
