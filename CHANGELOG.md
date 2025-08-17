@@ -1,3 +1,15 @@
+## [5.0.0](https://github.com/appium/appium-windows-driver/compare/v4.4.7...v5.0.0) (2025-08-17)
+
+### ⚠ BREAKING CHANGES
+
+* Required Node.js version has been bumped to ^20.19.0 || ^22.12.0 || >=24.0.0
+* Required npm version has been bumped to >=10
+* Required Appium server version has been bumped to >=3.0.0-rc.2
+
+### Features
+
+* Update server compatibility ([#321](https://github.com/appium/appium-windows-driver/issues/321)) ([f06b849](https://github.com/appium/appium-windows-driver/commit/f06b849c58a0db5756cd4f6fdd85b3c550518a67))
+
 ## [4.4.7](https://github.com/appium/appium-windows-driver/compare/v4.4.6...v4.4.7) (2025-08-17)
 
 ### Miscellaneous Chores
