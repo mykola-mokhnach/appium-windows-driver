@@ -1,3 +1,9 @@
+## [4.4.7](https://github.com/appium/appium-windows-driver/compare/v4.4.6...v4.4.7) (2025-08-17)
+
+### Miscellaneous Chores
+
+* drop rimraf deps from dev deps as no references ([#319](https://github.com/appium/appium-windows-driver/issues/319)) ([8b72481](https://github.com/appium/appium-windows-driver/commit/8b724814e7c618f2bb1213353bd0de7f0ff14f15))
+
 ## [4.4.6](https://github.com/appium/appium-windows-driver/compare/v4.4.5...v4.4.6) (2025-08-17)
 
 ### Bug Fixes
