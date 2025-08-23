@@ -1,3 +1,9 @@
+## [5.0.1](https://github.com/appium/appium-windows-driver/compare/v5.0.0...v5.0.1) (2025-08-23)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump chai from 5.3.2 to 6.0.0 ([#322](https://github.com/appium/appium-windows-driver/issues/322)) ([4535dca](https://github.com/appium/appium-windows-driver/commit/4535dca846f56fdbfdd5cb255fa80754b352802f))
+
 ## [5.0.0](https://github.com/appium/appium-windows-driver/compare/v4.4.7...v5.0.0) (2025-08-17)
 
 ### ⚠ BREAKING CHANGES
