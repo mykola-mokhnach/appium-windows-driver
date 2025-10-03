@@ -1,3 +1,9 @@
+## [5.0.2](https://github.com/appium/appium-windows-driver/compare/v5.0.1...v5.0.2) (2025-10-03)
+
+### Bug Fixes
+
+* Shellexec args escaping on Windows ([#325](https://github.com/appium/appium-windows-driver/issues/325)) ([e7244ea](https://github.com/appium/appium-windows-driver/commit/e7244ea34fb06e40283422e5221130dd2c360628))
+
 ## [5.0.1](https://github.com/appium/appium-windows-driver/compare/v5.0.0...v5.0.1) (2025-08-23)
 
 ### Miscellaneous Chores
