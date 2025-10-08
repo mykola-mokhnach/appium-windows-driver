@@ -1,3 +1,9 @@
+## [5.0.3](https://github.com/appium/appium-windows-driver/compare/v5.0.2...v5.0.3) (2025-10-08)
+
+### Bug Fixes
+
+* Use msiexec to install WAD ([#326](https://github.com/appium/appium-windows-driver/issues/326)) ([7a55ac1](https://github.com/appium/appium-windows-driver/commit/7a55ac184fe6733316c34b472657ef9f16677d10))
+
 ## [5.0.2](https://github.com/appium/appium-windows-driver/compare/v5.0.1...v5.0.2) (2025-10-03)
 
 ### Bug Fixes
