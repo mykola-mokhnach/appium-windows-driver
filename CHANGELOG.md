@@ -1,3 +1,9 @@
+## [5.0.4](https://github.com/appium/appium-windows-driver/compare/v5.0.3...v5.0.4) (2025-10-09)
+
+### Bug Fixes
+
+* use real path ([#327](https://github.com/appium/appium-windows-driver/issues/327)) ([2d5fddb](https://github.com/appium/appium-windows-driver/commit/2d5fddbcbfdb75df79aa20598af2410f0448f51d))
+
 ## [5.0.3](https://github.com/appium/appium-windows-driver/compare/v5.0.2...v5.0.3) (2025-10-08)
 
 ### Bug Fixes
