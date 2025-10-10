@@ -1,3 +1,9 @@
+## [5.0.5](https://github.com/appium/appium-windows-driver/compare/v5.0.4...v5.0.5) (2025-10-10)
+
+### Bug Fixes
+
+* Use PowerShell to trigger UAC prompts ([#328](https://github.com/appium/appium-windows-driver/issues/328)) ([4fe467d](https://github.com/appium/appium-windows-driver/commit/4fe467d0c7f5265a5d4e31bd4f16d66c9e6f5557))
+
 ## [5.0.4](https://github.com/appium/appium-windows-driver/compare/v5.0.3...v5.0.4) (2025-10-09)
 
 ### Bug Fixes
