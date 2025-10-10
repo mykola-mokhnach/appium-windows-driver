@@ -1,3 +1,9 @@
+## [5.0.6](https://github.com/appium/appium-windows-driver/compare/v5.0.5...v5.0.6) (2025-10-10)
+
+### Bug Fixes
+
+* utils imports ([#329](https://github.com/appium/appium-windows-driver/issues/329)) ([aa7efa2](https://github.com/appium/appium-windows-driver/commit/aa7efa27e61069d0a8d74aa2df489d3c9da06e21))
+
 ## [5.0.5](https://github.com/appium/appium-windows-driver/compare/v5.0.4...v5.0.5) (2025-10-10)
 
 ### Bug Fixes
