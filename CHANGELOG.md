@@ -1,3 +1,9 @@
+## [5.0.7](https://github.com/appium/appium-windows-driver/compare/v5.0.6...v5.0.7) (2025-10-17)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump semantic-release from 24.2.9 to 25.0.0 ([#330](https://github.com/appium/appium-windows-driver/issues/330)) ([c713862](https://github.com/appium/appium-windows-driver/commit/c71386230dde9197dcfe09cfc6a38a22eb415a2c))
+
 ## [5.0.6](https://github.com/appium/appium-windows-driver/compare/v5.0.5...v5.0.6) (2025-10-10)
 
 ### Bug Fixes
