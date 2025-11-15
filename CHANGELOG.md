@@ -1,3 +1,9 @@
+## [5.0.8](https://github.com/appium/appium-windows-driver/compare/v5.0.7...v5.0.8) (2025-11-15)
+
+### Miscellaneous Chores
+
+* publish via trusted publisher ([#331](https://github.com/appium/appium-windows-driver/issues/331)) ([e4085cf](https://github.com/appium/appium-windows-driver/commit/e4085cf113993469830764b5e04596cb52057690))
+
 ## [5.0.7](https://github.com/appium/appium-windows-driver/compare/v5.0.6...v5.0.7) (2025-10-17)
 
 ### Miscellaneous Chores
