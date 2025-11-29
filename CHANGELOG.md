@@ -1,3 +1,9 @@
+## [5.1.0](https://github.com/appium/appium-windows-driver/compare/v5.0.8...v5.1.0) (2025-11-29)
+
+### Features
+
+* Migrate driver and helpers to typescript ([#334](https://github.com/appium/appium-windows-driver/issues/334)) ([eb3918d](https://github.com/appium/appium-windows-driver/commit/eb3918d2cc3d0afd9bf72509ddda023cf6bb43b1))
+
 ## [5.0.8](https://github.com/appium/appium-windows-driver/compare/v5.0.7...v5.0.8) (2025-11-15)
 
 ### Miscellaneous Chores
