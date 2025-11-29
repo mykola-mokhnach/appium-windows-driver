@@ -1,3 +1,10 @@
+## [5.1.1](https://github.com/appium/appium-windows-driver/compare/v5.1.0...v5.1.1) (2025-11-29)
+
+### Miscellaneous Chores
+
+* **deps:** bump actions/checkout from 2 to 6 ([#336](https://github.com/appium/appium-windows-driver/issues/336)) ([11513ed](https://github.com/appium/appium-windows-driver/commit/11513ed47da5f1cc3fb0efff1249de656abd2e79))
+* **deps:** bump actions/setup-node from 3 to 6 ([#335](https://github.com/appium/appium-windows-driver/issues/335)) ([e9be4e6](https://github.com/appium/appium-windows-driver/commit/e9be4e6aba80246e7fe3bcf2ad0ddfe2ea8acf9c))
+
 ## [5.1.0](https://github.com/appium/appium-windows-driver/compare/v5.0.8...v5.1.0) (2025-11-29)
 
 ### Features
