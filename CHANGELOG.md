@@ -1,3 +1,9 @@
+## [5.1.9](https://github.com/appium/appium-windows-driver/compare/v5.1.8...v5.1.9) (2026-02-16)
+
+### Bug Fixes
+
+* format ([#348](https://github.com/appium/appium-windows-driver/issues/348)) ([98ba5b1](https://github.com/appium/appium-windows-driver/commit/98ba5b15d960c7357ec5a4b18fc6efdeceae9dd1))
+
 ## [5.1.8](https://github.com/appium/appium-windows-driver/compare/v5.1.7...v5.1.8) (2026-01-28)
 
 ### Miscellaneous Chores
