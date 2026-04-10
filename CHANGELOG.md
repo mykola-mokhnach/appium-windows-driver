@@ -1,3 +1,9 @@
+## [5.1.10](https://github.com/appium/appium-windows-driver/compare/v5.1.9...v5.1.10) (2026-04-10)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump typescript from 5.9.3 to 6.0.2 ([#349](https://github.com/appium/appium-windows-driver/issues/349)) ([3a0e06e](https://github.com/appium/appium-windows-driver/commit/3a0e06e15d3a1564d8623c9c767be000acd6027d))
+
 ## [5.1.9](https://github.com/appium/appium-windows-driver/compare/v5.1.8...v5.1.9) (2026-02-16)
 
 ### Bug Fixes
