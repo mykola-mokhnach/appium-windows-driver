@@ -1,3 +1,9 @@
+## [5.2.0](https://github.com/appium/appium-windows-driver/compare/v5.1.11...v5.2.0) (2026-05-05)
+
+### Features
+
+*  Migrate commands to typescript ([#351](https://github.com/appium/appium-windows-driver/issues/351)) ([69cf494](https://github.com/appium/appium-windows-driver/commit/69cf494596552750f052677f24e6e874eefb3bc8))
+
 ## [5.1.11](https://github.com/appium/appium-windows-driver/compare/v5.1.10...v5.1.11) (2026-05-05)
 
 ### Bug Fixes
