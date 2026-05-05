@@ -1,3 +1,9 @@
+## [5.1.11](https://github.com/appium/appium-windows-driver/compare/v5.1.10...v5.1.11) (2026-05-05)
+
+### Bug Fixes
+
+* lint ([#350](https://github.com/appium/appium-windows-driver/issues/350)) ([78e8dc3](https://github.com/appium/appium-windows-driver/commit/78e8dc3d22abc873efe7adf2ceff1d7c4a7ffbf2))
+
 ## [5.1.10](https://github.com/appium/appium-windows-driver/compare/v5.1.9...v5.1.10) (2026-04-10)
 
 ### Miscellaneous Chores
