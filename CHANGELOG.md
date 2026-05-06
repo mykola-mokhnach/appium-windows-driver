@@ -1,3 +1,9 @@
+## [5.2.1](https://github.com/appium/appium-windows-driver/compare/v5.2.0...v5.2.1) (2026-05-06)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump sinon from 21.1.2 to 22.0.0 ([#352](https://github.com/appium/appium-windows-driver/issues/352)) ([04e4644](https://github.com/appium/appium-windows-driver/commit/04e4644dea6cf4c7004920c4bd1b0e274c97da0a))
+
 ## [5.2.0](https://github.com/appium/appium-windows-driver/compare/v5.1.11...v5.2.0) (2026-05-05)
 
 ### Features
