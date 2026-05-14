@@ -17,7 +17,7 @@ import {
   type KeyInput,
 } from './winapi/user32';
 import {errors} from 'appium/driver';
-import B from 'bluebird';
+import {sleep, asyncmap} from 'asyncbox';
 import {util} from 'appium/support';
 import type {WindowsDriver} from '../driver';
 import {isInvalidArgumentError} from './winapi/errors';
@@ -124,6 +124,10 @@ async function toAbsoluteCoordinates(
   return [absoluteX as number, absoluteY as number];
 }
 
+function isModifierKeyName(name: string): name is keyof typeof MODIFIER_KEY {
+  return name in MODIFIER_KEY;
+}
+
 function isKeyDown(action: string): boolean {
   switch (_.toLower(action)) {
     case KEY_ACTION.UP:
@@ -146,12 +150,12 @@ function toModifierInputs(modifierKeys: string | string[], action: string): KeyI
       continue;
     }
 
-    const virtualKeyCode = MODIFIER_KEY[lowerKeyName];
-    if (_.isUndefined(virtualKeyCode)) {
+    if (!isModifierKeyName(lowerKeyName)) {
       throw new errors.InvalidArgumentError(
         `Modifier key name '${keyName}' is unknown. Supported key names are: ${_.keys(MODIFIER_KEY)}`,
       );
     }
+    const virtualKeyCode = MODIFIER_KEY[lowerKeyName];
     events.push({virtualKeyCode, action});
     usedKeys.add(lowerKeyName);
   }
@@ -217,7 +221,7 @@ export async function windowsClick(
   let clickInput: MouseInput;
   let moveInput: MouseInput;
   try {
-    [clickDownInput, clickUpInput, clickInput, moveInput] = await B.all([
+    [clickDownInput, clickUpInput, clickInput, moveInput] = await Promise.all([
       toMouseButtonInput({button, action: MOUSE_BUTTON_ACTION.DOWN}),
       toMouseButtonInput({button, action: MOUSE_BUTTON_ACTION.UP}),
       toMouseButtonInput({button, action: MOUSE_BUTTON_ACTION.CLICK}),
@@ -237,13 +241,13 @@ export async function windowsClick(
     for (let i = 0; i < times; ++i) {
       if (hasDuration) {
         await handleInputs(clickDownInput);
-        await B.delay(durationMs as number);
+        await sleep(durationMs as number);
         await handleInputs(clickUpInput);
       } else {
         await handleInputs(clickInput);
       }
       if (hasInterClickDelay) {
-        await B.delay(interClickDelayMs);
+        await sleep(interClickDelayMs);
       }
     }
   } finally {
@@ -367,7 +371,7 @@ export async function windowsClickAndDrag(
   const [modifierKeyDownInputs, modifierKeyUpInputs] = modifierKeysToInputs.bind(this)(
     modifierKeys,
   ) as [KeyInput[], KeyInput[]];
-  const [[startAbsoluteX, startAbsoluteY], [endAbsoluteX, endAbsoluteY]] = await B.all([
+  const [[startAbsoluteX, startAbsoluteY], [endAbsoluteX, endAbsoluteY]] = await Promise.all([
     toAbsoluteCoordinates.bind(this)(
       startElementId,
       startX,
@@ -383,7 +387,7 @@ export async function windowsClickAndDrag(
   let moveStartInput: MouseInput;
   let moveEndInput: MouseInput;
   try {
-    [moveStartInput, clickDownInput, moveEndInput, clickUpInput] = await B.all([
+    [moveStartInput, clickDownInput, moveEndInput, clickUpInput] = await Promise.all([
       toMouseMoveInput(startAbsoluteX, startAbsoluteY, screenSize),
       toMouseButtonInput({button: MOUSE_BUTTON.LEFT, action: MOUSE_BUTTON_ACTION.DOWN}),
       toMouseMoveInput(endAbsoluteX, endAbsoluteY, screenSize),
@@ -399,11 +403,11 @@ export async function windowsClickAndDrag(
     }
     await handleInputs(moveStartInput);
     // Small delays are necessary for the gesture to be registered as a valid drag-drop
-    await B.delay(10);
+    await sleep(10);
     await handleInputs(clickDownInput);
-    await B.delay(durationMs);
+    await sleep(durationMs);
     await handleInputs(moveEndInput);
-    await B.delay(10);
+    await sleep(10);
     await handleInputs(clickUpInput);
   } finally {
     if (!_.isEmpty(modifierKeyUpInputs)) {
@@ -458,7 +462,7 @@ export async function windowsHover(
   const [modifierKeyDownInputs, modifierKeyUpInputs] = modifierKeysToInputs.bind(this)(
     modifierKeys,
   ) as [KeyInput[], KeyInput[]];
-  const [[startAbsoluteX, startAbsoluteY], [endAbsoluteX, endAbsoluteY]] = await B.all([
+  const [[startAbsoluteX, startAbsoluteY], [endAbsoluteX, endAbsoluteY]] = await Promise.all([
     toAbsoluteCoordinates.bind(this)(
       startElementId,
       startX,
@@ -470,28 +474,20 @@ export async function windowsHover(
     >,
   ]);
   const stepsCount = Math.max(Math.trunc(durationMs / EVENT_INJECTION_DELAY_MS), 1);
-  const inputPromises: Array<B<MouseInput>> = [];
-  const inputPromisesChunk: Array<B<MouseInput>> = [];
   const maxChunkSize = 10;
-  for (let step = 0; step <= stepsCount; ++step) {
-    const promise = B.resolve(
-      toMouseMoveInput(
-        startAbsoluteX + Math.trunc(((endAbsoluteX - startAbsoluteX) * step) / stepsCount),
-        startAbsoluteY + Math.trunc(((endAbsoluteY - startAbsoluteY) * step) / stepsCount),
-        screenSize,
-      ),
-    );
-    inputPromises.push(promise);
-    // This is needed to avoid 'Error: Too many asynchronous calls are running'
-    inputPromisesChunk.push(promise);
-    if (inputPromisesChunk.length >= maxChunkSize) {
-      await B.any(inputPromisesChunk);
-      _.remove(inputPromisesChunk, (p) => p.isFulfilled());
-    }
-  }
+  const steps = _.range(0, stepsCount + 1);
   let inputs: MouseInput[];
   try {
-    inputs = await B.all(inputPromises);
+    inputs = await asyncmap(
+      steps,
+      async (step) =>
+        toMouseMoveInput(
+          startAbsoluteX + Math.trunc(((endAbsoluteX - startAbsoluteX) * step) / stepsCount),
+          startAbsoluteY + Math.trunc(((endAbsoluteY - startAbsoluteY) * step) / stepsCount),
+          screenSize,
+        ),
+      {concurrency: maxChunkSize},
+    );
   } catch (e) {
     throw preprocessError(e);
   }
@@ -503,7 +499,7 @@ export async function windowsHover(
     for (let i = 0; i < inputs.length; ++i) {
       await handleInputs(inputs[i]);
       if (i < inputs.length - 1) {
-        await B.delay(EVENT_INJECTION_DELAY_MS);
+        await sleep(EVENT_INJECTION_DELAY_MS);
       }
     }
   } finally {
@@ -529,7 +525,7 @@ export async function windowsKeys(
     if (_.isArray(item)) {
       await handleInputs(item);
     } else {
-      await B.delay(item);
+      await sleep(item);
     }
   }
 }

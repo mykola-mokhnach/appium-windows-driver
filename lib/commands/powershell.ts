@@ -2,7 +2,6 @@ import _ from 'lodash';
 import {fs, tempDir} from 'appium/support';
 import {exec} from 'teen_process';
 import path from 'node:path';
-import B from 'bluebird';
 import type {WindowsDriver} from '../driver';
 
 const EXECUTION_POLICY = {
@@ -86,10 +85,10 @@ export async function execPowerShell(
       return stdout;
     } catch (e: unknown) {
       const err = e as {stderr?: string; message?: string};
-      throw new Error(err.stderr || err.message || String(e));
+      throw new Error(err.stderr || err.message || String(e), {cause: e});
     }
   } finally {
-    await B.all([
+    await Promise.all([
       (async () => {
         if (userExecutionPolicy) {
           await exec(POWER_SHELL, [

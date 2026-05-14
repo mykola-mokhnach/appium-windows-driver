@@ -1,19 +1,26 @@
 import _ from 'lodash';
-import B from 'bluebird';
+import type {load, sizeof, struct, union} from 'koffi';
 import {createInvalidArgumentError} from './errors';
 import {util} from 'appium/support';
 import nodeUtil from 'node:util';
 import type {Position, Size} from '@appium/types';
 
-let ffi: typeof import('koffi') | undefined;
+type KoffiModule = {
+  load: typeof load;
+  struct: typeof struct;
+  union: typeof union;
+  sizeof: typeof sizeof;
+};
+
+let ffi: KoffiModule | undefined;
 try {
-  ffi = require('koffi');
+  ffi = require('koffi') as KoffiModule;
 } catch {}
-let StructType: typeof import('koffi').struct | undefined;
+let StructType: typeof struct | undefined;
 try {
   StructType = ffi?.struct;
 } catch {}
-let UnionType: typeof import('koffi').union | undefined;
+let UnionType: typeof union | undefined;
 try {
   UnionType = ffi?.union;
 } catch {}
@@ -452,7 +459,7 @@ export function toUnicodeKeyInputs(text: string): KeyInput[] {
 
 /** Virtual monitor width/height from GetSystemMetrics. */
 export async function getVirtualScreenSize(): Promise<Size> {
-  const [width, height] = await B.all(
+  const [width, height] = await Promise.all(
     [SM_CXVIRTUALSCREEN, SM_CYVIRTUALSCREEN].map(getSystemMetrics),
   );
   return {width, height};
@@ -460,7 +467,7 @@ export async function getVirtualScreenSize(): Promise<Size> {
 
 /** Virtual monitor origin from GetSystemMetrics. */
 export async function getVirtualScreenPosition(): Promise<Position> {
-  const [x, y] = await B.all([SM_XVIRTUALSCREEN, SM_YVIRTUALSCREEN].map(getSystemMetrics));
+  const [x, y] = await Promise.all([SM_XVIRTUALSCREEN, SM_YVIRTUALSCREEN].map(getSystemMetrics));
   return {x, y};
 }
 
