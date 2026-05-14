@@ -1,3 +1,9 @@
+## [5.3.0](https://github.com/appium/appium-windows-driver/compare/v5.2.1...v5.3.0) (2026-05-14)
+
+### Features
+
+* Ditch bluebird ([#353](https://github.com/appium/appium-windows-driver/issues/353)) ([f551974](https://github.com/appium/appium-windows-driver/commit/f551974b86937d4a6c25a9ee023a6a7cf9e05fd1))
+
 ## [5.2.1](https://github.com/appium/appium-windows-driver/compare/v5.2.0...v5.2.1) (2026-05-06)
 
 ### Miscellaneous Chores
