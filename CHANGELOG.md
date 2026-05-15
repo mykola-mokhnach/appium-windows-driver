@@ -1,3 +1,9 @@
+## [5.4.0](https://github.com/appium/appium-windows-driver/compare/v5.3.0...v5.4.0) (2026-05-15)
+
+### Features
+
+* Ditch lodash ([#354](https://github.com/appium/appium-windows-driver/issues/354)) ([2268469](https://github.com/appium/appium-windows-driver/commit/2268469dfa633ee4b18023372d5e2abad9373dc6))
+
 ## [5.3.0](https://github.com/appium/appium-windows-driver/compare/v5.2.1...v5.3.0) (2026-05-14)
 
 ### Features
