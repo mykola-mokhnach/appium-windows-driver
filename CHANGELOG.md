@@ -1,3 +1,9 @@
+## [5.4.1](https://github.com/appium/appium-windows-driver/compare/v5.4.0...v5.4.1) (2026-05-28)
+
+### Miscellaneous Chores
+
+* **deps:** bump koffi from 2.16.2 to 3.0.2 ([#357](https://github.com/appium/appium-windows-driver/issues/357)) ([4a2b7ae](https://github.com/appium/appium-windows-driver/commit/4a2b7ae51e631adf39eee834d0a47ae91efe92de))
+
 ## [5.4.0](https://github.com/appium/appium-windows-driver/compare/v5.3.0...v5.4.0) (2026-05-15)
 
 ### Features
