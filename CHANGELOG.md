@@ -1,3 +1,9 @@
+## [5.4.2](https://github.com/appium/appium-windows-driver/compare/v5.4.1...v5.4.2) (2026-06-07)
+
+### Bug Fixes
+
+* Native coordinates conversion for screen DPI ([#359](https://github.com/appium/appium-windows-driver/issues/359)) ([31d1c0d](https://github.com/appium/appium-windows-driver/commit/31d1c0dfc5926dbcf753f2e311df16659ee16215))
+
 ## [5.4.1](https://github.com/appium/appium-windows-driver/compare/v5.4.0...v5.4.1) (2026-05-28)
 
 ### Miscellaneous Chores
