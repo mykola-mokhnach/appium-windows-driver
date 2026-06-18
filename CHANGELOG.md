@@ -1,3 +1,17 @@
+## [6.0.0](https://github.com/appium/appium-windows-driver/compare/v5.4.2...v6.0.0) (2026-06-18)
+
+### ⚠ BREAKING CHANGES
+
+* The package is now ESM-only. require('appium-windows-driver') and other CommonJS require() usage will no longer work. Consumers must use ESM import.
+
+### Features
+
+* Migrate package to ESM ([#360](https://github.com/appium/appium-windows-driver/issues/360)) ([a21b8a0](https://github.com/appium/appium-windows-driver/commit/a21b8a03f1435f3ef4f8b09d5ecc441ac18b8405))
+
+### Bug Fixes
+
+* File upload signature ([#362](https://github.com/appium/appium-windows-driver/issues/362)) ([e82d066](https://github.com/appium/appium-windows-driver/commit/e82d0661af4875143230b5bd32bf63fbfc913c05))
+
 ## [5.4.2](https://github.com/appium/appium-windows-driver/compare/v5.4.1...v5.4.2) (2026-06-07)
 
 ### Bug Fixes
