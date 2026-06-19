@@ -1,3 +1,9 @@
+## [6.0.1](https://github.com/appium/appium-windows-driver/compare/v6.0.0...v6.0.1) (2026-06-19)
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @types/node from 25.9.4 to 26.0.0 ([#363](https://github.com/appium/appium-windows-driver/issues/363)) ([2a9973c](https://github.com/appium/appium-windows-driver/commit/2a9973c14c4e9f3f87d677bc4683bfc17e662d14))
+
 ## [6.0.0](https://github.com/appium/appium-windows-driver/compare/v5.4.2...v6.0.0) (2026-06-18)
 
 ### ⚠ BREAKING CHANGES
