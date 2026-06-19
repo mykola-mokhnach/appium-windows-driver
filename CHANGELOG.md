@@ -1,3 +1,9 @@
+## [6.0.2](https://github.com/appium/appium-windows-driver/compare/v6.0.1...v6.0.2) (2026-06-19)
+
+### Miscellaneous Chores
+
+* **deps:** bump actions/checkout from 6 to 7 ([#364](https://github.com/appium/appium-windows-driver/issues/364)) ([4fa81c2](https://github.com/appium/appium-windows-driver/commit/4fa81c2ddfac628037ae08a7ffa770b2508bfccc))
+
 ## [6.0.1](https://github.com/appium/appium-windows-driver/compare/v6.0.0...v6.0.1) (2026-06-19)
 
 ### Miscellaneous Chores
