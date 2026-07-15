@@ -1,3 +1,9 @@
+## [6.0.5](https://github.com/appium/appium-windows-driver/compare/v6.0.4...v6.0.5) (2026-07-15)
+
+### Miscellaneous Chores
+
+* **deps:** bump actions/setup-node from 6 to 7 ([#370](https://github.com/appium/appium-windows-driver/issues/370)) ([a105d38](https://github.com/appium/appium-windows-driver/commit/a105d389f5bf3ac3876257c0a0e433d025042132))
+
 ## [6.0.4](https://github.com/appium/appium-windows-driver/compare/v6.0.3...v6.0.4) (2026-07-01)
 
 ### Miscellaneous Chores
