@@ -74,7 +74,6 @@
     "format": "prettier -w ./lib ./test",
     "format:check": "prettier --check ./lib ./test",
     "prepare": "npm run build",
-    "pretest": "npm run build",
     "test": "node --test --test-timeout=60000 \"build/test/unit/**/*.test.js\"",
     "e2e-test": "npm run build && node --test --test-concurrency=1 --test-timeout=600000 \"build/test/e2e/**/*.test.js\""
   },
