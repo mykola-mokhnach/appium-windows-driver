@@ -1,3 +1,9 @@
+## [6.1.0](https://github.com/appium/appium-windows-driver/compare/v6.0.5...v6.1.0) (2026-07-29)
+
+### Features
+
+* use ox lint and format ([#374](https://github.com/appium/appium-windows-driver/issues/374)) ([d5199aa](https://github.com/appium/appium-windows-driver/commit/d5199aafdb6f05df0ac1caca250e11444ed71f4a))
+
 ## [6.0.5](https://github.com/appium/appium-windows-driver/compare/v6.0.4...v6.0.5) (2026-07-15)
 
 ### Miscellaneous Chores
