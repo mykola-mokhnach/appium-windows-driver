@@ -1,3 +1,9 @@
+## [6.1.1](https://github.com/appium/appium-windows-driver/compare/v6.1.0...v6.1.1) (2026-08-06)
+
+### Miscellaneous Chores
+
+* rename safe occurrences of JWProxy ([#375](https://github.com/appium/appium-windows-driver/issues/375)) ([2051d58](https://github.com/appium/appium-windows-driver/commit/2051d58365e1f99440abb8e4161120dd3b187fb2))
+
 ## [6.1.0](https://github.com/appium/appium-windows-driver/compare/v6.0.5...v6.1.0) (2026-07-29)
 
 ### Features
