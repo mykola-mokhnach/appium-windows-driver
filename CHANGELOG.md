@@ -1,3 +1,9 @@
+## [6.2.0](https://github.com/appium/appium-windows-driver/compare/v6.1.2...v6.2.0) (2026-09-10)
+
+### Features
+
+* own the context/contexts legacy MJSONWP routes ([#377](https://github.com/appium/appium-windows-driver/issues/377)) ([ae9c535](https://github.com/appium/appium-windows-driver/commit/ae9c53551b858d964c54f57201ba4b88f5ab5dac))
+
 ## [6.1.2](https://github.com/appium/appium-windows-driver/compare/v6.1.1...v6.1.2) (2026-09-10)
 
 ### Miscellaneous Chores
