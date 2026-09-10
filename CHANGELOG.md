@@ -1,3 +1,9 @@
+## [6.1.2](https://github.com/appium/appium-windows-driver/compare/v6.1.1...v6.1.2) (2026-09-10)
+
+### Miscellaneous Chores
+
+* **release:** publish via bundled dependencies instead of npm-shrinkwrap ([#376](https://github.com/appium/appium-windows-driver/issues/376)) ([b704f82](https://github.com/appium/appium-windows-driver/commit/b704f822e5d954d2c3aa03383b3d6004519b9a71))
+
 ## [6.1.1](https://github.com/appium/appium-windows-driver/compare/v6.1.0...v6.1.1) (2026-08-06)
 
 ### Miscellaneous Chores
